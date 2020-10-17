@@ -13,6 +13,21 @@
 		23187F63253B166E003A131D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23187F62253B166E003A131D /* Preview Assets.xcassets */; };
 		23187F6E253B166F003A131D /* TindboardCodeWithFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23187F6D253B166F003A131D /* TindboardCodeWithFriendsTests.swift */; };
 		23187F79253B166F003A131D /* TindboardCodeWithFriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23187F78253B166F003A131D /* TindboardCodeWithFriendsUITests.swift */; };
+		23187F8B253B16BA003A131D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23187F8A253B16BA003A131D /* Card.swift */; };
+		23187F90253B1825003A131D /* Game1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23187F8F253B1825003A131D /* Game1.swift */; };
+		23187F97253B19CB003A131D /* song12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23187F94253B19CB003A131D /* song12.mp3 */; };
+		23187F98253B19CB003A131D /* song11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23187F95253B19CB003A131D /* song11.mp3 */; };
+		23187F99253B19CB003A131D /* song13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23187F96253B19CB003A131D /* song13.mp3 */; };
+		23187F9E253B19F1003A131D /* Game2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23187F9D253B19F1003A131D /* Game2.swift */; };
+		23187FA3253B1BE5003A131D /* Game3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23187FA2253B1BE5003A131D /* Game3.swift */; };
+		23187FA8253B1E23003A131D /* Game4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23187FA7253B1E23003A131D /* Game4.swift */; };
+		23187FB3253B24DF003A131D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23187FB2253B24DF003A131D /* WidgetKit.framework */; };
+		23187FB5253B24DF003A131D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23187FB4253B24DF003A131D /* SwiftUI.framework */; };
+		23187FB8253B24DF003A131D /* Motivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23187FB7253B24DF003A131D /* Motivation.swift */; };
+		23187FBB253B24E1003A131D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23187FBA253B24E1003A131D /* Assets.xcassets */; };
+		23187FBD253B24E1003A131D /* Motivation.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 23187FB9253B24DF003A131D /* Motivation.intentdefinition */; };
+		23187FBE253B24E1003A131D /* Motivation.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 23187FB9253B24DF003A131D /* Motivation.intentdefinition */; };
+		23187FC1253B24E1003A131D /* MotivationExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 23187FB0253B24DF003A131D /* MotivationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +45,28 @@
 			remoteGlobalIDString = 23187F57253B166E003A131D;
 			remoteInfo = TindboardCodeWithFriends;
 		};
+		23187FBF253B24E1003A131D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23187F50253B166E003A131D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23187FAF253B24DF003A131D;
+			remoteInfo = MotivationExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		23187FC5253B24E1003A131D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				23187FC1253B24E1003A131D /* MotivationExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		23187F58253B166E003A131D /* TindboardCodeWithFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TindboardCodeWithFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +81,21 @@
 		23187F74253B166F003A131D /* TindboardCodeWithFriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TindboardCodeWithFriendsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23187F78253B166F003A131D /* TindboardCodeWithFriendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TindboardCodeWithFriendsUITests.swift; sourceTree = "<group>"; };
 		23187F7A253B166F003A131D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23187F8A253B16BA003A131D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		23187F8F253B1825003A131D /* Game1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game1.swift; sourceTree = "<group>"; };
+		23187F94253B19CB003A131D /* song12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song12.mp3; sourceTree = "<group>"; };
+		23187F95253B19CB003A131D /* song11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song11.mp3; sourceTree = "<group>"; };
+		23187F96253B19CB003A131D /* song13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song13.mp3; sourceTree = "<group>"; };
+		23187F9D253B19F1003A131D /* Game2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game2.swift; sourceTree = "<group>"; };
+		23187FA2253B1BE5003A131D /* Game3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game3.swift; sourceTree = "<group>"; };
+		23187FA7253B1E23003A131D /* Game4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game4.swift; sourceTree = "<group>"; };
+		23187FB0253B24DF003A131D /* MotivationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MotivationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		23187FB2253B24DF003A131D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		23187FB4253B24DF003A131D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		23187FB7253B24DF003A131D /* Motivation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motivation.swift; sourceTree = "<group>"; };
+		23187FB9253B24DF003A131D /* Motivation.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Motivation.intentdefinition; sourceTree = "<group>"; };
+		23187FBA253B24E1003A131D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23187FBC253B24E1003A131D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +120,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		23187FAD253B24DF003A131D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23187FB5253B24DF003A131D /* SwiftUI.framework in Frameworks */,
+				23187FB3253B24DF003A131D /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +138,8 @@
 				23187F5A253B166E003A131D /* TindboardCodeWithFriends */,
 				23187F6C253B166F003A131D /* TindboardCodeWithFriendsTests */,
 				23187F77253B166F003A131D /* TindboardCodeWithFriendsUITests */,
+				23187FB6253B24DF003A131D /* Motivation */,
+				23187FB1253B24DF003A131D /* Frameworks */,
 				23187F59253B166E003A131D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +150,7 @@
 				23187F58253B166E003A131D /* TindboardCodeWithFriends.app */,
 				23187F69253B166F003A131D /* TindboardCodeWithFriendsTests.xctest */,
 				23187F74253B166F003A131D /* TindboardCodeWithFriendsUITests.xctest */,
+				23187FB0253B24DF003A131D /* MotivationExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,7 +160,14 @@
 			children = (
 				23187F5B253B166E003A131D /* TindboardCodeWithFriendsApp.swift */,
 				23187F5D253B166E003A131D /* ContentView.swift */,
+				23187FA7253B1E23003A131D /* Game4.swift */,
+				23187F8F253B1825003A131D /* Game1.swift */,
+				23187F9D253B19F1003A131D /* Game2.swift */,
+				23187FA2253B1BE5003A131D /* Game3.swift */,
 				23187F5F253B166E003A131D /* Assets.xcassets */,
+				23187F95253B19CB003A131D /* song11.mp3 */,
+				23187F94253B19CB003A131D /* song12.mp3 */,
+				23187F96253B19CB003A131D /* song13.mp3 */,
 				23187F64253B166E003A131D /* Info.plist */,
 				23187F61253B166E003A131D /* Preview Content */,
 			);
@@ -108,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				23187F62253B166E003A131D /* Preview Assets.xcassets */,
+				23187F8A253B16BA003A131D /* Card.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -130,6 +201,26 @@
 			path = TindboardCodeWithFriendsUITests;
 			sourceTree = "<group>";
 		};
+		23187FB1253B24DF003A131D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23187FB2253B24DF003A131D /* WidgetKit.framework */,
+				23187FB4253B24DF003A131D /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23187FB6253B24DF003A131D /* Motivation */ = {
+			isa = PBXGroup;
+			children = (
+				23187FB7253B24DF003A131D /* Motivation.swift */,
+				23187FB9253B24DF003A131D /* Motivation.intentdefinition */,
+				23187FBA253B24E1003A131D /* Assets.xcassets */,
+				23187FBC253B24E1003A131D /* Info.plist */,
+			);
+			path = Motivation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,10 +231,12 @@
 				23187F54253B166E003A131D /* Sources */,
 				23187F55253B166E003A131D /* Frameworks */,
 				23187F56253B166E003A131D /* Resources */,
+				23187FC5253B24E1003A131D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				23187FC0253B24E1003A131D /* PBXTargetDependency */,
 			);
 			name = TindboardCodeWithFriends;
 			productName = TindboardCodeWithFriends;
@@ -186,6 +279,23 @@
 			productReference = 23187F74253B166F003A131D /* TindboardCodeWithFriendsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		23187FAF253B24DF003A131D /* MotivationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23187FC2253B24E1003A131D /* Build configuration list for PBXNativeTarget "MotivationExtension" */;
+			buildPhases = (
+				23187FAC253B24DF003A131D /* Sources */,
+				23187FAD253B24DF003A131D /* Frameworks */,
+				23187FAE253B24DF003A131D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotivationExtension;
+			productName = MotivationExtension;
+			productReference = 23187FB0253B24DF003A131D /* MotivationExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +316,9 @@
 						CreatedOnToolsVersion = 12.0.1;
 						TestTargetID = 23187F57253B166E003A131D;
 					};
+					23187FAF253B24DF003A131D = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 				};
 			};
 			buildConfigurationList = 23187F53253B166E003A131D /* Build configuration list for PBXProject "TindboardCodeWithFriends" */;
@@ -224,6 +337,7 @@
 				23187F57253B166E003A131D /* TindboardCodeWithFriends */,
 				23187F68253B166F003A131D /* TindboardCodeWithFriendsTests */,
 				23187F73253B166F003A131D /* TindboardCodeWithFriendsUITests */,
+				23187FAF253B24DF003A131D /* MotivationExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -233,8 +347,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23187F99253B19CB003A131D /* song13.mp3 in Resources */,
 				23187F63253B166E003A131D /* Preview Assets.xcassets in Resources */,
+				23187F98253B19CB003A131D /* song11.mp3 in Resources */,
 				23187F60253B166E003A131D /* Assets.xcassets in Resources */,
+				23187F97253B19CB003A131D /* song12.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +369,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		23187FAE253B24DF003A131D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23187FBB253B24E1003A131D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,8 +384,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23187FA8253B1E23003A131D /* Game4.swift in Sources */,
+				23187F9E253B19F1003A131D /* Game2.swift in Sources */,
 				23187F5E253B166E003A131D /* ContentView.swift in Sources */,
+				23187F90253B1825003A131D /* Game1.swift in Sources */,
+				23187F8B253B16BA003A131D /* Card.swift in Sources */,
 				23187F5C253B166E003A131D /* TindboardCodeWithFriendsApp.swift in Sources */,
+				23187FBE253B24E1003A131D /* Motivation.intentdefinition in Sources */,
+				23187FA3253B1BE5003A131D /* Game3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +411,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		23187FAC253B24DF003A131D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23187FBD253B24E1003A131D /* Motivation.intentdefinition in Sources */,
+				23187FB8253B24DF003A131D /* Motivation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +432,11 @@
 			isa = PBXTargetDependency;
 			target = 23187F57253B166E003A131D /* TindboardCodeWithFriends */;
 			targetProxy = 23187F75253B166F003A131D /* PBXContainerItemProxy */;
+		};
+		23187FC0253B24E1003A131D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23187FAF253B24DF003A131D /* MotivationExtension */;
+			targetProxy = 23187FBF253B24E1003A131D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -415,6 +560,7 @@
 		23187F7E253B166F003A131D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -437,6 +583,7 @@
 		23187F7F253B166F003A131D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +687,48 @@
 			};
 			name = Release;
 		};
+		23187FC3253B24E1003A131D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3Q3GX6Q6Z;
+				INFOPLIST_FILE = Motivation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IchRolleMitBesten.TindboardCodeWithFriends.Motivation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23187FC4253B24E1003A131D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3Q3GX6Q6Z;
+				INFOPLIST_FILE = Motivation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IchRolleMitBesten.TindboardCodeWithFriends.Motivation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -575,6 +764,15 @@
 			buildConfigurations = (
 				23187F84253B166F003A131D /* Debug */,
 				23187F85253B166F003A131D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23187FC2253B24E1003A131D /* Build configuration list for PBXNativeTarget "MotivationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23187FC3253B24E1003A131D /* Debug */,
+				23187FC4253B24E1003A131D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
